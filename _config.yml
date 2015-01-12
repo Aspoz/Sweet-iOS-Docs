@@ -1,6 +1,6 @@
 # Site title and subtitle. This is used in _includes/header.html
-title: 'jekyll-docs-template'
-subtitle: 'Painless documentation for your projects'
+title: 'Team Sweet - iOS Documentation'
+subtitle: 'Documentation for the NAM app'
 
 # Enable/show navigation. There are there options:
 #   0 - always hide
