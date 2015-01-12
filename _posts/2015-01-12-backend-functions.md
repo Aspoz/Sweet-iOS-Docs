@@ -12,8 +12,12 @@ Returns a `NS_URL` with the API URL for the given `param`.
 
 ##### Example:
 ```swift
-  endpoint_url("foo")
-  // returns 'http://base-url/foo'
+  endpoint_url("cases")
+```
+
+##### Returns:
+```swift
+  returns "http://base-url/cases"
 ```
 
 ### 2.2 post( endpoint: String, params: String )
@@ -63,3 +67,34 @@ Returns a `NSDictionary` with JSON data from the `POST` request.
     "access_token": "aea1fe91e2ba3114956a13103553df32"
   }
 ```
+
+### 2.5 createUserDefaults( email: String, password: String, user: NSDictionary )
+Returns a `Boolean` which sents true if the `userDefaults` were created with `email`, `password` and the complete `user` JSON.
+
+##### Example:
+```swift
+  createUserDefaults("voorzitter@nam.nl", password: "Password01", user: {"success": true, "user_id": 1, "group_id": 1, "access_token": "73e1f94b84081d874f88606d7f5d9a99"})
+```
+
+##### Returns:
+```swift
+  true
+```
+
+### 2.6 isLoggedIn()
+Returns a `Boolean`. The function checks if `isLoggedIn` is `true` in the `userDefaults`.
+
+##### Example:
+```swift
+  isLoggedIn()
+```
+
+##### Returns:
+```swift
+  false
+```
+
+### 2.7 currentUser()
+Returns a the `userid` as an `NSInteger` from the `userDefaults`.
+
+### 2.8 userToken()
