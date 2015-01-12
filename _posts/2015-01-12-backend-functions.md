@@ -95,6 +95,6 @@ Returns a `Boolean`. The function checks if `isLoggedIn` is `true` in the `userD
 ```
 
 ### 2.7 currentUser()
-Returns a the `userid` as an `NSInteger` from the `userDefaults`.
+Returns a the `userid` as an `NSInteger` from the current user.
 
 ### 2.8 userToken()
