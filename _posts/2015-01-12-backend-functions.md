@@ -98,3 +98,14 @@ Returns a `Boolean`. The function checks if `isLoggedIn` is `true` in the `userD
 Returns a the `userid` as an `NSInteger` from the current user.
 
 ### 2.8 userToken()
+Returns a `String` with the `accesstoken` from the current user.
+
+##### Example:
+```swift
+  userToken()
+```
+
+##### Returns:
+```swift
+  "05b9283e2ad14c19d512f07db5192330"
+```
