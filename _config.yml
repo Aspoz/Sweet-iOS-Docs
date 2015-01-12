@@ -13,11 +13,11 @@ codeurl: 'https://github.com/Aspoz/Sweet-iOS'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['req',     'Requirements']
-    ['back',    'Backend'],
-    ['front',   'FrontEnd'],
-    ['story',   'Storyboard'],
-    ['ext',     'Extensions']
+    ['doc'], 'General'],
+    ['back', 'Backend'],
+    ['front', 'FrontEnd'],
+    ['story', 'Storyboard'],
+    ['ext', 'Extensions']
 ]
 
 # Keep as an empty string if served up at the root. If served up at a specific
