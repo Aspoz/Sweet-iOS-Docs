@@ -34,7 +34,9 @@ Returns the `UIColor` object with the background color that is used for when a c
 
 ##### Example:
 ```swift
-  UIView.backgroundColor = UIColor.namGreenColor()
+  let view =  UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+
+  view.backgroundColor = UIColor.namGreenColor()
 ```
 
 ##### Result:
