@@ -10,7 +10,7 @@ date: 2015-01-12 16:28:00
 This method can be ran on a `String` with a date in the following format: `"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"` and will be formatted into: `HH:mm' - 'dd MMM yyyy`. This function will also return a `String`.
 
 ##### Dependence:
-Requires the `turnDateIntoString()` function
+Requires the private `turnDateIntoString()` function
 
 ##### Example:
 ```swift
