@@ -5,14 +5,17 @@ title: "Jekyll Docs Template"
 
 ### Get Started
 
-Start by [creating a new post](http://jekyllrb.com/docs/posts/) one of the categories listed in `_config.yml`. It will appear in the navigation on the left once recompiled. Or use the supplied script to make creating pages easier:
+Welcome to the iOS documentation for the NAM application. The documentation is written by: Team Sweet and this is version: `1.0` of the document.
 
-```bash
-ruby bin/jekyll-page "Some Page Title" ref
-```
+Here you can find information about the following topics:
 
-#### Don't Forget
+- [Requirements](doc/general-requirements.html)
+- [Backend](back/backend-introduction.html)
+- [Frontend](front/frontend-introduction.html)
+- [Storyboard](story/storyboard-introduction.html)
+- [Extensions](ext/extensions-introduction.html)
 
-- Add your own content to this page (i.e. `index.md`) and change the `title`
-- Change `title` and `subtitle` defined in `config.yml` for your site
-- Set the `baseurl` in `_config.yml` for your repo if deploying to GitHub pages
+Want to get in touch with the developers? Contact us at:
+
+- Jordi Wippert: [info@jordiwippert.nl](mailto:info@jordiwippert.nl)
+- Boyd Dames: [inooid@gmail.com](mailto:inooid@gmail.com)
