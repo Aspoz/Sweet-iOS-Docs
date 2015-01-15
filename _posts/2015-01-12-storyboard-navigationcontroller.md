@@ -5,8 +5,8 @@ category: story
 date: 2015-01-12 16:57:00
 ---
 
-### 4.1 Segues:
+The navigation bar is styled programmaticly in the `AppDelegate` file.
 
-DE SEGUES HIERVAN MOETEN NOG BEKEKEN WORDEN.
+### 4.1 Segues:
 
 Relationship 'root view controller' to OverviewViewController
