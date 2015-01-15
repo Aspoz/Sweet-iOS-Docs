@@ -8,14 +8,14 @@ Is the Initial View Controller.
 
 ### 3.1 Elements:
 `Email`  
-The Email field is styled with the attributes inspector and has a referencing outlet named `txtUsername` in the corresponding viewcontroller.
+The Email `UITextField` is styled with the attributes inspector and has a referencing outlet named 'txtUsername' in the corresponding viewcontroller.
 
 `Password`  
-The Password field is styled with the attributes inspector and has a referencing outlet named `txtPassword` in the corresponding viewcontroller.
+The Password `UITextField` is styled with the attributes inspector and has a referencing outlet named 'txtPassword' in the corresponding viewcontroller.
 
 `LOG IN`  
-The LOG IN button is styled with the attributes inspector and in his viewcontroller and has a referencing outlet named `loginButton` in the corresponding viewcontroller. It also has an event, named 'Touch Up Inside' and is used as IBAFunction called signinTapped in the corresponding viewcontroller.
+The LOG IN `UIButton` is styled with the attributes inspector and in his viewcontroller and has a referencing outlet named 'loginButton' in the corresponding viewcontroller. It also has an event, named 'Touch Up Inside' and is used as `IBAFunction` called 'signinTapped' in the corresponding viewcontroller.
 
 ### 3.2 Segues:
 
-Modal segue with identifier `loginSuccess` to Navigation Controller (LOG IN button).
+Modal segue with identifier 'loginSuccess' to Navigation Controller (LOG IN `UIButton`).
