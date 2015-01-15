@@ -21,3 +21,35 @@ Requires `Colors extension` and `class CaseItem`
 
 ##### Result:
 ![addStatusColorBlue Color](http://i.imgur.com/lgpz8cm.png "addStatusColor Result")
+
+
+
+### 3.2 roundedCorners( radius: CGFloat )
+This method can be ran on an `UIView` to change the radius of the corners.
+
+##### Example:
+```swift
+  let view = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+  view.backgroundColor = UIColor.blackColor()
+
+  view.roundedCorners(5)
+```
+
+##### Result:
+![roundedCorners](http://i.imgur.com/tDx7XT7.png "roundedCorners Result")
+
+
+
+### 3.3 makeCircle()
+This method can be ran on an `UIView` to make the corners round based on the `width` and `height` of the `UIView`.
+
+##### Example:
+```swift
+  let view = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+  view.backgroundColor = UIColor.blackColor()
+
+  view.makeRound()
+```
+
+##### Result:
+![makeRound()](http://i.imgur.com/q8sx755.png "makeRound() Result")
