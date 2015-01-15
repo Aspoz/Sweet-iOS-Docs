@@ -5,11 +5,11 @@ category: front
 date: 2015-01-12 15:40:52
 ---
 
-To make sure that all the data that is being correctly formatted and received from the API, we use models. For this particular application there are 4 different models: [CaseItems](#4.1-caseitem), [Documents](#4.2-document), [Comments](#4.3-comments) and [Notes](#4.4-notes).
+To make sure that all the data that is being correctly formatted and received from the API, we use models. For this particular application there are 4 different models: [CaseItem](#4.1-caseitem), [Document](#4.2-document), [Comment](#4.3-comment) and [Note](#4.4-note).
 
 ### 4.1 CaseItem
 
-The `CaseItem` model is used to ensure that the correct format is received from the API. It gives structure to the view controllers of what they can expect and adds functions that can be run to fetch certain
+The `CaseItem` model is used to give structure to what a `CaseItem` looks like.
 
 The following attributes are present for a `CaseItem` object:
 
@@ -18,13 +18,51 @@ The following attributes are present for a `CaseItem` object:
 - casetype: String
 - status: String
 
-##### Function: casesWithJSON(allResults: NSArray)
-This function returns an `NSArray` of `CaseItem` instances.
+##### Function: casesWithJSON( allResults: NSArray )
+This function returns an `NSArray` of `CaseItem` objects.
 
-###### Example:
-```swift
-  let view = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
-  let caseitem = CaseItem(id: 1, title: "Test case", casetype: "RFC", status: "Open")
 
-  view.addStatusColor(caseitem)
-```
+### 4.2 Document
+
+The `Document` model is used to give structure to what a `Document` looks like.
+
+The following attributes are present for a `Document` object:
+
+- id: Int
+- title: String
+- attachment_url: String
+- updated_at: String
+
+##### Function: documentsWithJSON( allResults: NSDictionary )
+This function returns an `NSArray` of `Document` objects.
+
+
+
+### 4.3 Comment
+
+The `Comment` model is used to give structure to what a `Comment` looks like.
+
+The following attributes are present for a `Document` object:
+
+- id: Int
+- body: String
+- user_name: String
+- created_at: String
+
+##### Function: commentsWithJSON( allResults: NSDictionary )
+This function returns an `NSArray` of `Comment` objects.
+
+
+
+### 4.4 Note
+
+The `Note` model is used to give structure to what a `Note` looks like.
+
+The following attributes are present for a `Note` object:
+
+- id: Int
+- body: String
+- var user_id: Int
+
+##### Function: notesWithJSON( allResults: NSDictionary )
+This function returns an `NSArray` of `Note` objects.
