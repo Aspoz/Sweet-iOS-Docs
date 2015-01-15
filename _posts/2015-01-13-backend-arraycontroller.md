@@ -25,7 +25,7 @@ var backend = Backend()
 Defines 'backend' as variable for the class [Backend](../back/backend-introduction.html).
 
 ### 4.3 get(path: String, getSuccess: () -> Void)
-Uses Backend.BASE_URL + path to obtain a full url to get the cases array. This url is used in the request which the function does. It get's an array with json items and will send to `self.delegate.didReceiveAPIResults(jsonResult)`.
+Uses Backend.BASE_URL + path to obtain a full url to get a array. This url is used in the request which the function does. It get's an array with json items and will send to `self.delegate.didReceiveAPIResults(jsonResult)`.
 
 ##### Example of the json result:
 ```swift
