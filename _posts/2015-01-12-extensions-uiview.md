@@ -13,9 +13,10 @@ Requires `Colors extension` and `class CaseItem`
 
 ##### Example:
 ```swift
-  caseitem = CaseItem.new(1, title: "Test case", casetype: "RFC", status: "Open")
+  let view = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+  let caseitem = CaseItem.new(1, title: "Test case", casetype: "RFC", status: "Open")
 
-  UIView.addStatusColor(caseitem)
+  view.addStatusColor(caseitem)
 ```
 
 ##### Result:
