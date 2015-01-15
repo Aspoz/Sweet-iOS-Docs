@@ -6,7 +6,7 @@ date: 2015-01-12 16:29:00
 ---
 
 ### 3.1 addStatusColor( caseItem: CaseItem )
-This method can be ran on a `UIView` to add the corresponding case status color as `backgroundColor`.
+This method can be ran on an `UIView` to add the corresponding case status color as `backgroundColor`.
 
 ##### Dependence:
 Requires `Colors extension` and `class CaseItem`
