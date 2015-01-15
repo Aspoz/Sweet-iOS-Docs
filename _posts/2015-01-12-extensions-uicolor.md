@@ -50,11 +50,14 @@ This extension builds a `UIColor` object color from HEX. Fill in the `0x` plus H
 
 ##### Example:
 ```swift
+  let view =  UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+  let view2 = UIView(frame: CGRect(x: 0, y: 60, width: 50, height: 50))
+
   // Make UIView background color #555555
-  UIView.backgroundColor = UIColor.colorWithRGBHex(0x555555)
+  view.backgroundColor = UIColor.colorWithRGBHex(0x555555)
 
   // Make UIView background color #555555 with alpha 0.5
-  UIView.backgroundColor = UIColor.colorWithRGBHex(0x555555, alpha: 0.5)
+  view2.backgroundColor = UIColor.colorWithRGBHex(0x555555, alpha: 0.5)
 ```
 
 ##### Result:
