@@ -28,13 +28,13 @@ Is presenting the `UITabBarItem` which contains an image and title. It's styled 
 The `UITableView` has a reusable cell named 'DocumentCell' with multiple outlets. These outlets are named: 'FileBG'(`UIView`), 'PDFImage'(`UIImageView`) 'File Name'(`UILabel`), 'DateTime'(`UILabel`) and 'SeperatorLine'(`UIView`). These can be found in the corresponding instance view. The table view has the referencing outlets 'delegate', 'data source' and an outlet for itself named 'DocumentsTableView'.
 
 ### 7.3 Constraints:
-Vertical Space (113), Table View to Top Layout Guide.
-Horizontal Space (-16), View to This folder is empty...
-Horizontal Space (-16), This folder is empty... to View.
-Horizontal Space (295), Clear View Logo to View.
-Horizontal Space (295), View to Clear View Logo.
-Vertical Space (236), Clear View Logo to This folder is empty...
-Vertical Space (391), Bottom Layout Guide to Clear View Logo.
+Vertical Space - (113) - Table View - Top Layout Guide.  
+Horizontal Space - (-16) - View - This folder is empty...  
+Horizontal Space - (-16) - This folder is empty... - View.  
+Horizontal Space - (295) - Clear View Logo - View.  
+Horizontal Space - (295) - View - Clear View Logo.  
+Vertical Space - (236) - Clear View Logo - This folder is empty...  
+Vertical Space - (391) - Bottom Layout Guide - Clear View Logo.  
 
 ### 7.4 Segues:
 

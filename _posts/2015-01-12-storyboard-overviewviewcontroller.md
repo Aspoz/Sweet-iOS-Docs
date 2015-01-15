@@ -34,7 +34,7 @@ The LOG IN `UIButton` is styled with the attributes inspector and in his viewcon
 The `UITableView` has a reusable cell named 'OverviewCell' with multiple outlets. These outlets are named: 'CaseBG'(`UIView`), 'CaseStatusColor'(`UIView`), 'CaseTitle'(`UILabel`) and 'CaseType'(`UILabel`). These can be found in the corresponding instance view. The table view has the referencing outlets 'delegate', 'data source' and an outlet for itself named 'OverviewTableView'.
 
 ### 5.3 Constraints:
-Vertical space (125), table view to view.
+Vertical space - (125) - table view - view.
 
 ### 5.4 Segues:
 

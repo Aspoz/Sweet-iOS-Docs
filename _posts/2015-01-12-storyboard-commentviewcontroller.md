@@ -22,16 +22,16 @@ Is presenting the `UITabBarItem` which contains an image and title. It's styled 
 The `UITableView` has a reusable cell named 'CommentCell' with multiple outlets. These outlets are named: 'CommentAuthor'(`UILabel`), 'CommentBody'(`UILabel`) and 'CommentDate'(`UILabel`). These can be found in the corresponding instance view. The table view has the referencing outlets 'delegate', 'data source' and an outlet for itself named 'commentTableView'.
 
 ### 8.3 Constraints:
-Horizontal Space - (7) - Label - Content View
-Vertical Space - (7) - Label - Content View
-Vertical Space - (1) - Content View - Label
-Vertical Space - (27) - Label - Content View
-Leading Alignment - Label - Label
-Horizontal Space - Label - Label
-Horizontal Space - (15) - Content View - Label
-Vertical Space - (5) - Label - Content View
-Horizontal Space - (69) - Label - Label
-Vertical Space - (16) - Content View - Label
+Horizontal Space - (7)- Label - Content View  
+Vertical Space - (7) - Label - Content View    
+Vertical Space - (1) - Content View - Label  
+Vertical Space - (27) - Label - Content View  
+Leading Alignment - Label - Label  
+Horizontal Space - Label - Label  
+Horizontal Space - (15) - Content View - Label  
+Vertical Space - (5) - Label - Content View  
+Horizontal Space - (69) - Label - Label  
+Vertical Space - (16) - Content View - Label  
 
 ### 8.4 Segues:
 
