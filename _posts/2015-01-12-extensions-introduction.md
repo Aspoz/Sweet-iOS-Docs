@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "1. Introduction"
+title: "1. Extensions Introduction"
 category: ext
 date: 2015-01-12 16:36:29
 ---
