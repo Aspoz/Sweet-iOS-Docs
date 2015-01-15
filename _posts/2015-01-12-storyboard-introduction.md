@@ -9,4 +9,4 @@ The stoaryboard is used to easily set up the application. The advances of using 
 
 Downsides are that you can't see some 'magic' things, such as segues. Also, styling is now seperated in some cases, attributes inspector and programmaticly styling things have to work together. 
 
-This made clear that every possible styling update from now on should be done in code (if possible).
+This made clear that every possible styling update(colors, texts, etc.) from now on, should be done in code (if possible).
